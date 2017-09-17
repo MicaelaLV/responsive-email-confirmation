@@ -1,0 +1,148 @@
+.logo > a {
+  color: #337ff1;
+}
+
+.titleblock > span {
+  color: #555454;
+  font-family: Open-sans, sans-serif;
+  font-size: small;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.conf_body > td {
+  border: 1px solid #D6D4D4;
+  color: #333;
+  padding: 7px 0;
+}
+
+.table.table-mail {
+  width: 100%;
+  margin-top: 10px;
+  -moz-box-shadow: 0 0 5px #afafaf;
+  -webkit-box-shadow: 0 0 5px #afafaf;
+  -o-box-shadow: 0 0 5px #afafaf;
+  box-shadow: 0 0 5px #afafaf;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#afafaf,Direction=134,Strength=5);
+}
+
+.space {
+  width: 20px;
+  padding: 7px 0;
+}
+
+.table {
+  width: 100%;
+}
+
+.logo {
+  border-bottom: 4px solid #333333;
+  padding: 7px 0;
+}
+
+.titleblock {
+  padding: 7px 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 28px;
+  text-transform: uppercase;
+  line-height: 33px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.space_footer {
+  padding: 0!important;
+}
+
+.box {
+  border: 1px solid #D6D4D4;
+  background-color: #f8f8f8;
+  padding: 7px 0;
+}
+
+.table.table-recap {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.conf_body {
+}
+
+.box.address {
+  border: 1px solid #D6D4D4;
+  background-color: #f8f8f8;
+  padding: 7px 0;
+}
+
+.space_address {
+  padding: 7px 0;
+}
+
+.linkbelow {
+  padding: 7px 0;
+}
+
+.footer {
+  border-top: 4px solid #333333;
+  padding: 7px 0;
+}

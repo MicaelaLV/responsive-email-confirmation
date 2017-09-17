@@ -1,0 +1,148 @@
+/*
+Name: basic-email-test
+Description: Email Confirmation Template
+Authors: Micaela Linda Villani 
+Tags: Template Boilerplate HMTL CSS PRESTASHOP
+*/
+
+/* Fonts
+---headings
+font-family: 'Brandon Regular', sans-serif;
+font-family: 'Brandon Medium', sans-serif;
+--paragraphs
+font-family: 'Brandon Light', sans-serif;
+*/
+
+/* FONTS  */
+@font-face {
+  font-family: Brandon Medium;
+  src: url('../fonts/brandon-medium.otf');
+}
+
+@font-face {
+  font-family: Brandon Light;
+  src: url('../fonts/brandon-light.otf');
+}
+
+@font-face {
+  font-family: Brandon Regular;
+  src: url('../fonts/brandon-reg.otf');
+}
+
+
+/* PAGE STYLES */
+*:before *:after {
+  box-sizing: border-box;
+}
+
+html, body { 
+  padding: 0;
+  margin: 0; 
+  color: #1A1919;
+}
+
+/* WHOLE ORDER CONTAINER */
+.main-container {
+  margin: 0;
+  text-align: center;
+  background-color: #EFEFEE;
+  padding: 0.1em 0.1em;
+}
+
+/* LOGO  */
+.logo {
+  font-family: 'Brandon Regular', sans-serif;
+  letter-spacing: 0.1em;
+  color: #1A1919;
+}
+
+.light-logo-letter {
+  font-family: 'Brandon Light', sans-serif;
+}
+
+/* INSIDE CONTAINER */
+.order-container {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+}
+
+p {
+  font-size: 1em;
+  font-family: 'Brandon Light', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.second-heading {
+  font-family: 'Brandon Regular', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.details {
+  margin: -1em 3em 0 3em;
+  padding-bottom: 1em;
+  border-bottom: 0.01em solid #1B1A1A;
+}
+
+/* TABLE  */
+/* RECAP ORDER TABLE */
+.order-recap {
+  font-family: 'Brandon Regular', sans-serif;
+  font-weight: 700;  
+  margin: 2em 3em;
+  padding: 0em 1em;
+  text-align: left;
+  text-transform: uppercase;
+  width: 91%;
+}
+
+.order-recap-row {
+  margin: 1em;
+}
+
+.table-h {
+  padding: 0.2em;
+}
+
+.table-data {
+  font-family: 'Brandon Light', sans-serif;
+  font-weight: 200;
+  text-align: left;
+  width: 36%;
+}
+
+/* ORDER DETAILS TABLE */
+table.order-details {
+  border-collapse: collapse;
+  margin: 2em 3em;
+  padding: 0em 1em;
+  text-align: left;
+  text-transform: initial; 
+  height: 8.4em;
+  width: 91%;
+}
+
+.details-h {
+  border-top: 0.01em solid #1B1A1A;
+  border-bottom: 0.01em solid #1B1A1A;font-family: 'Brandon Light', sans-serif;
+  font-weight: 200;
+  padding-left: 1em;
+ }
+
+ td.sold-item-values {
+  padding-left: 0.8em;
+ }
+
+ td.sold-item-quantity {
+  padding-left: 2.4em;
+ }
+
+ td.sold-item-price {
+  padding-left: 2em;
+ }
+ 
+.xs-img {
+  height: 4em;
+
+}

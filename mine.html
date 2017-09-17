@@ -1,0 +1,83 @@
+<!-- Emails use the XHTML Strict doctype -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- The character set should be utf-8 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width"/>
+  <!-- Link to the email's CSS, which will be inlined into the email -->
+    <!-- <link rel="stylesheet" href="assets/css/foundation-emails.css"> -->
+  <link rel="stylesheet" href="css/mine-styles.css">
+  
+    <!-- <style>
+        /* Your CSS to inline should be added here  */
+      </style> -->
+</head>
+
+<body>
+
+  <!-- WHOLE ORDER CONTAINER -->
+<div class="main-container">
+  <h1 class="logo"> P 
+    <span class="light-logo-letter"> D </span> 
+    PAOLA</h1>    
+
+  <!-- INSIDE CONTAINER -->
+  <div class="order-container">
+    <p> ¡Hola {FIRSTNAME}! </p>
+    <h2 class="second-heading"> gracias por tu pedido </h2>
+    <p class="details"> Estos son los detalles de tu pedido con referencia [#PEDIDO] </p>
+    
+    <!-- ORDER RECAP TABLE -->
+    <table class="order-recap">
+      <!-- first row -->
+      <tr class="order-recap-row">
+        <td class="table-h"> pedido </td>
+        <td class="table-data"> {order_name} </td>
+      </tr>
+      <!-- second row -->
+      <tr class="order-recap-row">
+          <td class="table-h"> fecha </td>
+          <td class="table-data"> {date} </td>
+        </tr>
+      <!-- second row -->
+      <tr class="order-recap-row">
+          <td class="table-h"> método de pago </td>
+          <td class="table-data"> {payment} </td>
+        </tr>
+    </table>
+
+    <!-- ORDER DETAILS TABLE -->
+    <table class="order-details">
+      <tr>
+        <th class="details-h"> Modelo </th>
+        <th class="details-h"> Referencia </th>
+        <th class="details-h"> Unidades </th>
+        <th class="details-h"> Precio unitario </th>
+        <th class="details-h"> Precio </th>
+      </tr>
+      <!-- first item -->
+      <tr>
+        <td class="sold-item-values"><img src="images/anillo-gold.png" alt="gold ring" class="xs-img"></td>
+        <td class="sold-item-values"><p> Double Gold </p></td>
+        <td class="sold-item-values sold-item-quantity"><p> 1 </p></td>
+        <td class="sold-item-values sold-item-price"><p> 19,00 € </p></td>
+        <td class="sold-item-values"><p> 19,00 € </p></td>
+      </tr>
+      <!-- second item -->
+      <!-- <tr>
+          <td class="sold-item-values"><img src="images/valentina-earrings.png" alt="gold ring" class="xs-img"></td>
+          <td class="sold-item-values"><p> Double Gold </p></td>
+          <td class="sold-item-values sold-item-quantity"><p> 1 </p></td>
+          <td class="sold-item-values sold-item-price"><p> 19,00 € </p></td>
+          <td class="sold-item-values"><p> 19,00 € </p></td>
+        </tr> -->
+
+    </table>
+
+  </div>
+</div>
+
+
+</body>
+</html> 
