@@ -39,6 +39,7 @@ html, body {
   padding: 0;
   margin: 0; 
   color: #1A1919;
+  font-size: 18px;
 }
 
 /* WHOLE ORDER CONTAINER */
@@ -58,6 +59,7 @@ html, body {
 
 .light-logo-letter {
   font-family: 'Brandon Light', sans-serif;
+  font-weight: 100;
 }
 
 /* INSIDE CONTAINER */
@@ -80,7 +82,7 @@ td,th {
 }
 
 .second-heading {
-  font-family: 'Brandon Regular', sans-serif;
+  font-family: 'Brandon Medium', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -94,7 +96,6 @@ td,th {
 /* RECAP ORDER TABLE */
 .order-recap {
   border-top: 0.01em solid #1B1A1A;
-  font-family: 'Brandon Regular', sans-serif;
   font-weight: 700; 
   margin: 0em 0em 1em 3em; 
   padding: 1em 1em;
@@ -109,7 +110,7 @@ td,th {
 
 .table-h {
   padding: 0.2em;
-  font-family: 'Brandon Regular', sans-serif;
+  font-family: 'Brandon Medium', sans-serif;
   font-weight: 700;  
 }
 
@@ -117,7 +118,7 @@ td,th {
   font-family: 'Brandon Light', sans-serif;
   font-weight: 200;
   text-align: left;
-  width: 36%;
+  width: 32%;
 }
 
 /* ORDER DETAILS TABLE */
@@ -127,7 +128,7 @@ table.order-details {
   padding: 0em 1em;
   text-align: left;
   text-transform: initial; 
-  height: 230px;
+  height: 240px;
   width: 91%;
 }
 
@@ -139,17 +140,25 @@ table.order-details {
   padding-left: 1em;
  }
 
+ th:nth-child(2){
+  padding-left: 1.9em;
+ }
+
+ .quantities {
+   padding-right: 1em;
+ }
+
 tr.first-item-row {
   border-bottom: 0.01em solid #C3C4C3;
   height: 90px;
 }
 
  td.sold-item-values {
-  padding-left: 0.8em;
+  padding-left: 1.3em;
  }
 
  td.sold-item-quantity {
-  padding-left: 2.4em;
+  padding-left: 3em;
  }
 
  td.sold-item-price {
