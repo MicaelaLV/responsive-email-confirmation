@@ -53,7 +53,7 @@ html, body {
 /* LOGO  */
 .logo {
   font-family: 'Brandon Regular', sans-serif;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.17em;
   color: #1A1919;
 }
 
@@ -72,7 +72,6 @@ html, body {
 
 p {
   font-family: 'Brandon Light', sans-serif;
-  
 }
 
 td,th {
@@ -179,8 +178,31 @@ tr.first-item-row {
   font-weight: 100;
 }
 
-
 tr.second-item-row {
   border-bottom: 0.01em solid #C3C4C3;
   height: 90px;
+}
+
+.payment-recap {
+  float: left;
+  margin-top: 0.8em;
+}
+
+.col-1 {
+  text-align: left;
+  margin-left: 65%;
+  font-size: 1em;
+}
+
+.col-2 {
+  text-align: right;
+  margin-left: 10%;
+}
+
+.payment-p {
+  margin: 0.5em 0;
+}
+
+.total {
+  font-family: 'Brandon Medium', sans-serif;
 }
