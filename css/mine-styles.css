@@ -201,8 +201,10 @@ tr.second-item-row {
 
 .payment-p {
   margin: 0.5em 0;
+  letter-spacing: 0.05em;
 }
 
 .total {
   font-family: 'Brandon Medium', sans-serif;
 }
+
