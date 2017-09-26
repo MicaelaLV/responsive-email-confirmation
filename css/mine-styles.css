@@ -29,7 +29,6 @@ font-family: 'Brandon Light', sans-serif;
   src: url('../fonts/brandon-reg.otf');
 }
 
-
 /* PAGE STYLES */
 *:before *:after {
   box-sizing: border-box;
@@ -48,6 +47,7 @@ html, body {
   text-align: center;
   background-color: #EFEFEE;
   padding: 0.1em 0.1em;
+  height: 240vh;
 }
 
 /* LOGO  */
@@ -65,9 +65,9 @@ html, body {
 /* INSIDE CONTAINER */
 .order-container {
   background-color: white;
-  padding: 1em;
+  padding: 1em 1em 0 1em;
   margin: 1em;
-  height: 200vh;
+  height: 150vh;
 }
 
 p {
@@ -94,7 +94,7 @@ td,th {
 /* TABLE  */
 /* RECAP ORDER TABLE */
 .table-container {
-  margin: 0em 3em 0 3em;
+  margin: 0em 2em 0 2em;
 }
 
 .order-recap {
@@ -189,6 +189,12 @@ tr.second-item-row {
   height: 90px;
 }
 
+/* PRODUCT RECAP  */
+.payment-container {
+  margin: 0em 2em 0 2em;
+  height: 10em;
+}
+
 .payment-recap {
   float: left;
   margin-top: 0.8em;
@@ -196,7 +202,7 @@ tr.second-item-row {
 
 .col-1 {
   text-align: left;
-  margin-left: 65%;
+  margin-left: 60%;
   font-size: 1em;
 }
 
@@ -212,4 +218,74 @@ tr.second-item-row {
 
 .total {
   font-family: 'Brandon Medium', sans-serif;
+}
+
+/* DELIVERY ADDRESS + INVOICE DETAILS */
+.delivery-container {
+  margin: 0em 2em 0 2em;
+  border-top: 0.01em solid #1B1A1A;
+  border-bottom: 0.01em solid #1B1A1A;
+  height: 13em;
+}
+
+.delivery-col-left {
+  float: left;
+  text-align: left;
+  width: 43%;
+  margin-left: 1em;
+}
+
+.delivery-heading {
+  font-family: 'Brandon Medium', sans-serif;
+  font-weight: 500;
+}
+
+.invoice-col-right {
+  float: left;
+  text-align: left;
+  width: 43%;
+  margin-left: 10%;
+}
+
+/* EXTRA ACTIONS */
+.extra-actions-container {
+  margin: 0em 2em 0 2em;
+}
+
+.order-state {
+  font-family: 'Brandon Light', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 0.4em 11em;
+}
+
+.download-order {
+  font-family: 'Brandon Light', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 0.4em 13.45em;
+}
+
+/* RECOMMENDATIONS */
+.recommendations-container {
+  margin: -1em 1em -1em 1em;
+  padding: 0 1em;  
+  background-color: #FBF9F9;
+  height: 
+}
+
+.recommendations-col {
+  float: left;
+  width: 33%;
+  padding: 2em 0 ;
+}
+
+.recommendations-img {
+  height: 8em;
 }
