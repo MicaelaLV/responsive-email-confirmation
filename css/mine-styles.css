@@ -337,3 +337,7 @@ tr.second-item-row {
   height: 2em;
   padding: 1em;
 }
+
+a {
+  text-decoration: none;
+}
