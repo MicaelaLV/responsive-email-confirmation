@@ -93,14 +93,17 @@ td,th {
 
 /* TABLE  */
 /* RECAP ORDER TABLE */
+.table-container {
+  margin: 0em 3em 0 3em;
+}
+
 .order-recap {
   border-top: 0.01em solid #1B1A1A;
   font-weight: 700; 
-  margin: 0em 0em 1em 3em; 
   padding: 1em 1em;
   text-align: left;
   text-transform: uppercase;
-  width: 91%;
+  width: 100%;
 }
 
 .order-recap-row {
@@ -123,12 +126,11 @@ td,th {
 /* ORDER DETAILS TABLE */
 table.order-details {
   border-collapse: collapse;
-  margin: -1em 3em 0 3em;
   padding: 0em 1em;
   text-align: left;
   text-transform: initial; 
   height: 240px;
-  width: 91%;
+  width: 100%;
 }
 
 .details-h {
@@ -136,8 +138,12 @@ table.order-details {
   border-bottom: 0.01em solid #1B1A1A;
   font-family: 'Brandon Light', sans-serif;
   font-weight: 200;
-  padding-left: 1em;
+  padding-left: 0.8em;
  }
+
+.details-h-one {
+  padding-left: 1.5em;
+}
 
  th:nth-child(2){
   padding-left: 1.9em;
@@ -201,10 +207,9 @@ tr.second-item-row {
 
 .payment-p {
   margin: 0.5em 0;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .total {
   font-family: 'Brandon Medium', sans-serif;
 }
-
