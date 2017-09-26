@@ -67,7 +67,7 @@ html, body {
   background-color: white;
   padding: 1em 1em 0 1em;
   margin: 1em;
-  height: 150vh;
+  height: 143vh;
 }
 
 p {
@@ -277,7 +277,7 @@ tr.second-item-row {
   margin: -1em 1em -1em 1em;
   padding: 0 1em;  
   background-color: #FBF9F9;
-  height: 
+  height: 17em;
 }
 
 .recommendations-col {
@@ -288,4 +288,10 @@ tr.second-item-row {
 
 .recommendations-img {
   height: 8em;
+}
+
+.recommendations-h {
+  font-family: 'Brandon Medium', sans-serif;
+  font-weight: 500;
+  margin-bottom: -1em;
 }
