@@ -151,6 +151,10 @@ table.order-details {
   padding-left: 1.9em;
  }
 
+ .model {
+   padding-left: 1.5em;
+ }
+
  .quantities {
    padding-right: 1em;
  }
@@ -165,7 +169,7 @@ tr.first-item-row {
  }
 
  td.sold-item-quantity {
-  padding-left: 3em;
+  padding-left: 2.5em;
  }
 
  td.sold-item-price {
@@ -176,9 +180,12 @@ tr.first-item-row {
   height: 4em;
 }
 
+.first-img {
+  margin-right: 1em;
+}
+
 .second-img{
   margin-top: 1em;
-  margin-left: 0.4em;
 }
 
 .product-number {
