@@ -39,6 +39,10 @@ html, body {
   margin: 0; 
   color: #1A1919;
   font-size: 18px;
+  min-height: 866px;
+  max-height: 866px;
+  min-width: 834px;
+  max-width: 834px;
 }
 
 /* WHOLE ORDER CONTAINER */
@@ -200,7 +204,7 @@ tr.second-item-row {
 
 .col-1 {
   text-align: left;
-  margin-left: 60%;
+  margin-left: 62%;
   font-size: 1em;
 }
 
@@ -308,12 +312,12 @@ tr.second-item-row {
 .goodbye-p {
   font-family: 'Brandon Light', sans-serif;
   font-weight: 600;
-  font-size: 1.4em;
+  font-size: 1em;
   letter-spacing: 0.1em;
   color: white;
   position: relative;
-  bottom: 16.5em;
-  left: 0%;
+  bottom: 17em;
+  right: 2%;
   margin: auto;
 }
 
@@ -324,5 +328,5 @@ tr.second-item-row {
 }
 .social-logo {
   height: 2em;
-  padding: 0.5em;
+  padding: 1em;
 }
