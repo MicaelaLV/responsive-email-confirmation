@@ -41,8 +41,8 @@ html, body {
   font-size: 18px;
   min-height: 866px;
   max-height: 866px;
-  min-width: 938px;
-  max-width: 938px;
+  min-width: 834px;
+  max-width: 834px;
 }
 
 /* WHOLE ORDER CONTAINER */
@@ -313,7 +313,7 @@ tr.second-item-row {
 
 .goodbye-img {
   margin: -0.1em 0;
-  height: 70vh;
+  height: 607px;
 }
 
 .goodbye-p {
