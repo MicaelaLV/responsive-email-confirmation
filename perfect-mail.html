@@ -362,14 +362,13 @@
     <!-- WHOLE ORDER CONTAINER -->
     <div class="main-container">
       <a href="https://www.pdpaola.com/es/">
-        <!-- TODO === can be implemented with the logo img by using <img src="{shop_logo}" alt="{shop_name}" />  -->
         <h2 class="logo"> P 
         <span class="light-logo-letter"> D </span> 
         PAOLA</h2>    
       </a>
       <!-- INSIDE CONTAINER -->
       <div class="order-container">
-        <p> ¡Hola {firstname}! </p> 
+        <p> ¡Hola [FIRSTNAME]! </p> 
         <h2 class="second-heading"> gracias por tu pedido </h2>
         <p class="details"> Estos son los detalles de tu pedido con referencia {order_name} </p>
         
@@ -406,11 +405,23 @@
             </tr>
             <!-- first item -->
             <tr class="first-item-row">
-              <td class="sold-item-values"> {products} </td>
+              <td class="sold-item-values"><img src="https://www.pdpaola.com/641-home_default/double-gold.jpg" alt="gold ring" class="xs-img first-img"></td>
+              <td class="sold-item-values"> Double Gold  <br> 
+                <span class="product-number"> AN07-047-2 </span>
+              </td>
+              <td class="sold-item-values sold-item-quantity"> 1 </td>
+              <td class="sold-item-values sold-item-price"> 19,00 € </td>
+              <td class="sold-item-values"> 19,00 € </td>
             </tr>
             <!-- second item -->
             <tr class="second-item-row">
-              <td class="sold-item-values"> {products} </td>
+                <td class="sold-item-values"><img src="https://www.pdpaola.com/1301-home_default/valentina-gold.jpg" alt="gold ring" class="xs-img second-img"></td>
+                <td class="sold-item-values"> Valentina Gold  <br>
+                  <span class="product-number"> AR02-037-U </span>
+                </td>
+                <td class="sold-item-values sold-item-quantity"> 1 </td>
+                <td class="sold-item-values sold-item-price"> 36,00 € </td>
+                <td class="sold-item-values"> 36,00 € </td>
             </tr>
           </table>
         </div>
@@ -426,10 +437,10 @@
           </div>
           <!-- second column -->
           <div class="payment-recap col-2">
-            <p class="payment-p"> {total_products} </p>
-            <p class="payment-p"> {total_discounts} </p>
-            <p class="payment-p"> {total_shipping} </p>
-            <p class="payment-p total"> {total_paid} </p>
+            <p class="payment-p"> 45,90 € </p>
+            <p class="payment-p"> 0,00 € </p>
+            <p class="payment-p"> 9,18 € </p>
+            <p class="payment-p total"> 36,72 € </p>
           </div>
         </div>
                 
@@ -438,12 +449,22 @@
           <!-- delivery column-->
           <div class="delivery-col-left">
             <h4 class="delivery-heading"> DIRECCIÓN DE ENTREGA </h4>
-            <p class="delivery-p"> {delivery_block_html} </p>
+            <p class="delivery-p">Alba Pérez <br>
+                Calle Joaquim Molins 5-7 4o4a <br>
+                08028 Barcelona, Barcelona <br>
+                España <br>
+                678160978
+            </p>
           </div>
           <!-- invoice column-->
           <div class="invoice-col-right">
             <h4 class="delivery-heading"> DIRECCIÓN DE FACTURACIÓN </h4>
-            <p class="delivery-p"> {invoice_block_html} </p>
+            <p class="delivery-p">Alba Pérez <br>
+                Calle Joaquim Molins 5-7 4o4a <br>
+                08028 Barcelona, Barcelona <br>
+                España <br>
+                678160978
+            </p>
           </div>
         </div>
 
@@ -452,14 +473,14 @@
           <p> Si quieres hacer un seguimiento de tu pedido puedes acceder <br>
              a tu cuenta de cliente haciendo click aquí. </p>
           <!-- ORDER STATE BUTTON   -->
-          <a href="{history_url}" class="order-state">
+          <a href="#" class="order-state">
             ESTADO DE TU PEDIDO >
           </a>
 
           <p> También puedes descargarte todos los detalles de tu pedido <br>
              haciendo click aquí. </p>
           <!-- ORDER STATE BUTTON   -->
-          <a href="http://www.pdpaola.com/es/mi-cuenta" target"_blank" class="download-order">
+          <a href="#" class="download-order">
             DESCARGAS >
           </a>
 
