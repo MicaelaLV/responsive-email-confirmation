@@ -323,7 +323,7 @@ tr.second-item-row {
   letter-spacing: 0.1em;
   color: white;
   position: relative;
-  bottom: 17em;
+  bottom: 18em;
   right: 2%;
   margin: auto;
 }
@@ -335,7 +335,7 @@ tr.second-item-row {
 }
 .social-logo {
   height: 2em;
-  padding: 1em;
+  padding: 1em 0.3em;
 }
 
 a {
